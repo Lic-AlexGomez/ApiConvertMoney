@@ -114,7 +114,7 @@ button:focus {
   outline: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
    input {
     width: 150px;
   }
