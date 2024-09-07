@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasa de Cambio USD</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Consultar tasa de cambio MXN/USD</h1>
+    <h1>Conversor de divisas</h1>
+
+    <div class="contenedor">
+      <div class="card">
+        <h2>MXN/EUR</h2>
+
+        <input type="text" id="inputMXNEu" value="1" onkeyup="inputChnage('EUR')" >
+        <p>Valor: <span id="resul1"></span>$</p>
+      </div>
+
+      <div class="card">
+        <h2>MXN/BRL</h2>
+        <input type="text" id="inputMXNBrl" value="1" onkeyup="inputChnage('BRL')">
+        <p>Valor: <span id="resul2"></span>$</p>
+      </div>
+
+      <div class="card">
+        <h2>Escoge los tipos de moneda</h2>
+        <div class="container">
+
+            <div class="cantidades">
+                <select id="selector_uno" > 
+                  <option value="MXN" selected>MXN</option>
+    
+                </select>
+                A
+                <select id="selector_dos" >
+           
+                    <option value="USD" selected>USD</option>
+                  </select>
+                <input type="number" id="cantidad_uno" placeholder="0" value="1" />
+              </div>
+        
+              <div class="contenedor_invertir">             
+                <div class="rate" id="rate"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
