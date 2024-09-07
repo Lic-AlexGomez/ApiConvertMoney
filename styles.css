@@ -82,14 +82,15 @@ p {
 }
 
 
-.cantidades input {
+ input {
   font-size: 30px;
   text-align: right;
   border-width: 0.05em;
   border-bottom-style: groove;
   border-color: black;
   border-radius: 10px;
-      width: 64%;
+  width: 64%;
+      text-align: right;
 }
 
 .contenedor_calculo {
