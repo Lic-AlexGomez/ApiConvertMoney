@@ -82,7 +82,7 @@ p {
 }
 
 
- input {
+.cantidades input {
   font-size: 30px;
   text-align: right;
   border-width: 0.05em;
